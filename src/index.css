@@ -1,0 +1,132 @@
+body {
+}
+
+.nav-bar {
+}
+.nav-link {
+  text-decoration: none;
+  margin-right: 16px;
+  font-size: 17px;
+  color: #595959;
+  font-weight: 700;
+  transition: all 0.5 ease;
+  display: inline;
+}
+.nav-link:hover {
+    color: #04a491;
+}
+.active {
+  color: #04a491;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-form {
+}
+.login-form input {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-container {
+  max-width: 20rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container form {
+  min-width: 11rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.form-container a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+.form-container button {
+  align-items: center;
+  width: 11rem;
+  background-color: #04a491;
+  border: none;
+  border-radius: 2px;
+  padding: 2px 0;
+  color: #fff;
+  font-weight: 500;
+}
+.nav-bar .my-btn {
+  display: inline;
+  /* align-items: center; */
+  /* width: 11rem; */
+  background-color: #fff;
+  border: none;
+  border-radius: 2px;
+  padding: 2px 0;
+  font-size: 17px;
+  color: #595959;
+  font-weight: 700;
+}
+.nav-bar.my-btn:hover {
+  color: #04a491;
+}
+.my-btn{
+  color: #04a491;
+  border: 2px solid #04a491;
+  border-radius: 3px;
+  padding: 4px 11px;
+  font-size: 17px;
+  font-weight: 600;
+  transition: all 0.5 ease;
+  background-color: #fff;
+}
+.my-btn:hover{
+  border: 2px solid #1c325f;
+  color: #1c325f;
+
+}
+.my-btn-danger{
+    border: 2px solid #C74B50;
+    border-radius: 3px;
+    padding: 4px 11px;
+    font-size: 17px;
+  background-color: #fff;
+    font-weight: 600;
+    transition: all 0.5 ease;
+    color: #C74B50;
+}
+.my-btn-danger:hover {
+  border: 2px solid #1c325f;
+  color: #1c325f;
+
+}
+.header{
+ border-bottom: .1px solid #e9e7e7;
+ margin-bottom: 25px;
+ height: 4rem;
+ padding: 0 15px;
+ /* position: sticky; */
+}
+.my-link{
+  color: #1c325f;
+  text-decoration: none;
+}
+.my-link:hover{
+    color: #1c325f;
+  text-decoration: underline;
+}
+.back{
+  color: #1c325f;
+  border: none;
+  margin-left: 2.5rem;
+  font-size: 19px;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 5px 9px;
+}
+.my-span{
+    font-weight: 500;
+}
